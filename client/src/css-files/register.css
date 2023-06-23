@@ -41,7 +41,7 @@ font-family: gilroy;
   flex-direction: column;
   justify-content: space-around;
   width: 18vw;
-  box-shadow: 10px 10px 15px black;
+  box-shadow: 10px 10px 15px rgb(85, 120, 124);
 }
 
 label {
