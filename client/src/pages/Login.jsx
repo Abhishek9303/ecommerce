@@ -47,8 +47,8 @@ const Login = () => {
   return (
     <div className="register-page">
       <h2>Login</h2>
-      <form onSubmit={handleSubmit} className="register-form">
-        <div className="form-group">
+      <form onSubmit={handleSubmit} id='loginform' className="register-form">
+        <div className="form-group" >
           <label htmlFor="email">Email:</label>
           <input
             type="email"
@@ -72,7 +72,7 @@ const Login = () => {
         </div>
         <button type="submit">Login</button>
       </form>
-      <h4>If Not Registered <Link to="/register">Register</Link></h4>
+      <h4 id='reglink'>If Not Registered <Link to="/register">Register</Link></h4>
     </div>
   );
 };
