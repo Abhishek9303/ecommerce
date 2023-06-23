@@ -35,6 +35,7 @@ const Home = () => {
 
     return (
         <div className="home-container">
+            <h1>hello</h1>
         <div className="up">
             <i className="ri-customer-service-fill">Have a question? CALL US+00-000-00000</i>
             <div style={{display: "flex", alignItems: "center"}}>
